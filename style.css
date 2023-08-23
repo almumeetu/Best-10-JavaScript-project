@@ -58,7 +58,11 @@ span{
     color: var(--primary-color);
     display: inline-block;
     margin: 30px 0;
+    transition: .5s;
     border-radius: 5px;
+}
+.info a:hover {
+    background: #ff4321;
 }
 .img-box {
     width: 45%;
